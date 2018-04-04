@@ -1,3 +1,5 @@
 module.exports = {
-  MONGODB: process.env.MONGODB_URI || 'localhost:3333'
+  MONGODB_HOSTNAME: process.env.MONGODB_HOSTNAME,
+  MONGODB_PORT: process.env.MONGODB_PORT,
+  MONGODB_DATABASE: process.env.MONGODB_DATABASE
 }
