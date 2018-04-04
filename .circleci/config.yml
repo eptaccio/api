@@ -3,7 +3,7 @@ version: '2'
 jobs:
   build:
     docker:
-      - image: node:1.11.1-alpine
+      - image: node:8.11.1-alpine
 
     steps:
       - checkout
